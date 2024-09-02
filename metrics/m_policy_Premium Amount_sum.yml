@@ -1,0 +1,6 @@
+unique_name: m_policy_Premium Amount_sum
+object_type: metric
+label: Total_Premium_Amount
+calculation_method: sum
+column: Premium Amount
+dataset: policy

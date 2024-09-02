@@ -1,0 +1,38 @@
+unique_name: policy
+object_type: dataset
+label: policy
+columns:
+  - name: Policy Number
+    data_type: string
+  - name: Effective Date
+    data_type: date
+  - name: Expiration Date
+    data_type: date
+  - name: Line of Business
+    data_type: string
+  - name: Policy Holder Name
+    data_type: string
+  - name: Premium Amount
+    data_type: long
+  - name: Policy Status
+    data_type: string
+  - name: Underwriting Company
+    data_type: string
+  - name: Policy Type
+    data_type: string
+  - name: Coverage Type
+    data_type: string
+  - name: Issuing Agent
+    data_type: string
+  - name: Last Renewal Date
+    data_type: date
+  - name: Cancellation Date
+    data_type: string
+  - name: Policy Duration
+    data_type: string
+  - name: Policy Territory
+    data_type: string
+  - name: Discount Applied
+    data_type: string
+connection_id: con_hive_metastore_default
+table: policy

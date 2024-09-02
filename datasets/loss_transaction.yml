@@ -1,0 +1,40 @@
+unique_name: loss_transaction
+object_type: dataset
+label: loss_transaction
+columns:
+  - name: Loss Transaction ID
+    data_type: string
+  - name: Invoice ID (FK)
+    data_type: string
+  - name: Cost Type
+    data_type: string
+  - name: Disbursement Type
+    data_type: string
+  - name: Transaction Type
+    data_type: string
+  - name: LT_Status Code
+    data_type: string
+  - name: Current Row Active
+    data_type: string
+  - name: Transaction Date
+    data_type: date
+  - name: Amount
+    data_type: long
+  - name: Currency
+    data_type: string
+  - name: Payment Method
+    data_type: string
+  - name: Claim Number (FK)
+    data_type: string
+  - name: Policy Number (FK)
+    data_type: string
+  - name: Created By
+    data_type: string
+  - name: Created Date
+    data_type: date
+  - name: Modified By
+    data_type: string
+  - name: Modified Date
+    data_type: date
+connection_id: con_hive_metastore_default
+table: loss_transaction

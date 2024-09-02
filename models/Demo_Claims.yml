@@ -1,0 +1,9 @@
+unique_name: Demo_Claims
+object_type: model
+label: Demo_Claims
+dimensions:
+  - Policy_Number
+  - Transaction_Date
+metrics:
+  - unique_name: m_loss_transaction_Amount_sum
+relationships: []

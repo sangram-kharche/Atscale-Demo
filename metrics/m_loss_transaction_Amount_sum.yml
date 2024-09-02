@@ -1,0 +1,6 @@
+unique_name: m_loss_transaction_Amount_sum
+object_type: metric
+label: Total_Transaction_Amount
+calculation_method: sum
+column: Amount
+dataset: loss_transaction

@@ -6,6 +6,7 @@ hierarchies:
     label: Policy Number Hierarchy
     levels:
       - unique_name: Policy_Number_Level
+      - unique_name: Policy_Number_Hierarchy Level
 is_degenerate: true
 level_attributes:
   - unique_name: Policy_Number_Level
@@ -15,4 +16,12 @@ level_attributes:
     key_columns:
       - Policy Number
     name_column: Policy Number
+  - unique_name: Policy_Number_Hierarchy Level
+    label: Policy_Number_Hierarchy Level
+    contains_unique_names: false
+    dataset: policy
+    is_unique_key: false
+    key_columns:
+      - Line of Business
+    name_column: Line of Business
 type: standard

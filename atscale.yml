@@ -1,0 +1,6 @@
+unique_name: atscale_demo
+object_type: catalog
+label: Ins Claims Demo
+as_version: 1.0
+aggressive_agg_promotion: false
+build_speculative_aggs: false

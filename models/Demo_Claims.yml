@@ -2,7 +2,6 @@ unique_name: Demo_Claims
 object_type: model
 label: Demo_Claims
 dimensions:
-  - LOB
   - Transaction_Date
   - Cost_Type
 metrics:

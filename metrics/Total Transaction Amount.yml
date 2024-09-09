@@ -1,4 +1,4 @@
-unique_name: m_loss_transaction_Amount_sum
+unique_name: Total Transaction Amount
 object_type: metric
 label: Total_Transaction_Amount
 calculation_method: sum

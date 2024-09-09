@@ -5,7 +5,7 @@ dimensions:
   - Transaction_Date
   - Cost_Type
 metrics:
-  - unique_name: m_loss_transaction_Amount_sum
+  - unique_name: Total Transaction Amount
   - unique_name: Total Premium
   - unique_name: Loss Ratio
 relationships:

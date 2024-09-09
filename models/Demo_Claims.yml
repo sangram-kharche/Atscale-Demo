@@ -1,9 +1,7 @@
 unique_name: Demo_Claims
 object_type: model
 label: Demo_Claims
-dimensions:
-  - Transaction_Date
-  - Cost_Type
+dimensions: []
 metrics:
   - unique_name: Total Transaction Amount
   - unique_name: Total Premium

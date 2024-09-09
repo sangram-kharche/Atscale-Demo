@@ -57,3 +57,11 @@ relationships:
     to:
       dimension: Policy Dim
       level: Policy Dim Level
+  - unique_name: loss_transaction_Amount_to_Policy Dim_LOB
+    from:
+      dataset: loss_transaction
+      join_columns:
+        - Amount
+    to:
+      dimension: Policy Dim
+      level: LOB

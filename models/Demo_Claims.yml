@@ -16,14 +16,6 @@ relationships:
     to:
       dimension: Policy Dim
       level: Policy Dim Level
-  - unique_name: policy_Policy Number_to_Policy Dim_Policy Dim Level
-    from:
-      dataset: policy
-      join_columns:
-        - Policy Number
-    to:
-      dimension: Policy Dim
-      level: Policy Dim Level
   - unique_name: loss_transaction_Claim Number (FK)_to_Claims DIm_Claims DIm Level
     from:
       dataset: loss_transaction

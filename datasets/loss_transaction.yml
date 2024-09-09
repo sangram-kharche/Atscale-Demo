@@ -36,5 +36,8 @@ columns:
     data_type: string
   - name: Modified Date
     data_type: date
+  - name: Year
+    data_type: string
+    sql: left(`Transaction Date`,4)
 connection_id: con_hive_metastore_default
 table: loss_transaction

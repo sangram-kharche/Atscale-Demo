@@ -5,7 +5,7 @@ columns:
   - name: DateNum
     data_type: long
   - name: Date
-    data_type: string
+    data_type: date
   - name: Year
     data_type: long
   - name: YearMonthNum

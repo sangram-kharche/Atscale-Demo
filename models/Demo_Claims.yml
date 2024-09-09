@@ -57,14 +57,3 @@ relationships:
     to:
       dimension: Policy Dim
       level: Policy Dim Level
-
-drillthroughs:
-
-  - unique_name: LOB
-    attributes:
-
-      - name: LOB
-        dimension: Policy Dim
-
-    metrics:
-      - Loss Ratio

@@ -1,0 +1,18 @@
+unique_name: E_Experienceiration_Date
+object_type: dimension
+label: E Experienceiration Date
+hierarchies:
+  - unique_name: E_Experienceiration_Date_Hierarchy
+    label: E Experienceiration Date Hierarchy
+    levels:
+      - unique_name: E_Experienceiration_Date_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: E_Experienceiration_Date_Level
+    label: E Experienceiration Date Level
+    contains_unique_names: false
+    dataset: policy
+    key_columns:
+      - Expiration Date
+    name_column: Expiration Date
+type: standard

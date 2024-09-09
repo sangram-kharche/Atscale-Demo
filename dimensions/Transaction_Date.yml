@@ -6,6 +6,7 @@ hierarchies:
     label: Transaction Date Hierarchy
     levels:
       - unique_name: Transaction_Date_Level
+      - unique_name: Transaction_Date_Hierarchy Level
 is_degenerate: true
 level_attributes:
   - unique_name: Transaction_Date_Level
@@ -15,4 +16,14 @@ level_attributes:
     key_columns:
       - Transaction Date
     name_column: Transaction Date
-type: standard
+    time_unit: undefined
+  - unique_name: Transaction_Date_Hierarchy Level
+    label: Transaction_Date_Hierarchy Level
+    contains_unique_names: false
+    dataset: dim_date_20_24
+    is_unique_key: false
+    key_columns:
+      - Year
+    name_column: Year
+    time_unit: year
+type: time

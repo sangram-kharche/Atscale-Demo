@@ -1,0 +1,18 @@
+unique_name: Year
+object_type: dimension
+label: Year
+hierarchies:
+  - unique_name: Year_Hierarchy
+    label: Year Hierarchy
+    levels:
+      - unique_name: Year_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Year_Level
+    label: Year Level
+    contains_unique_names: false
+    dataset: loss_transaction
+    key_columns:
+      - Year
+    name_column: Year
+type: standard

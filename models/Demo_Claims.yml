@@ -4,6 +4,7 @@ label: Demo_Claims
 dimensions:
   - E_Experienceiration_Date
   - Transaction_Date
+  - Year
 metrics:
   - unique_name: Total Transaction Amount
   - unique_name: Total Premium

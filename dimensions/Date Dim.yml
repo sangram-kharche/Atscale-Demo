@@ -1,0 +1,39 @@
+unique_name: Date Dim
+object_type: dimension
+label: Date Dim
+hierarchies:
+  - unique_name: Date Dim Hierarchy
+    label: Date Dim Hierarchy
+    levels:
+      - unique_name: Year
+      - unique_name: Quarter
+      - unique_name: Month
+level_attributes:
+  - unique_name: Year
+    label: Year
+    contains_unique_names: false
+    dataset: dim_date_20_24
+    is_unique_key: false
+    key_columns:
+      - Year
+    name_column: Year
+    time_unit: year
+  - unique_name: Quarter
+    label: Quarter
+    contains_unique_names: false
+    dataset: dim_date_20_24
+    is_unique_key: false
+    key_columns:
+      - Calendar_Quarter
+    name_column: Calendar_Quarter
+    time_unit: quarter
+  - unique_name: Month
+    label: Month
+    contains_unique_names: false
+    dataset: dim_date_20_24
+    is_unique_key: false
+    key_columns:
+      - MonthNum
+    name_column: MonthName
+    time_unit: month
+type: time

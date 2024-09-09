@@ -40,3 +40,11 @@ relationships:
     to:
       dimension: Policy Dim
       level: Policy Dim Level
+  - unique_name: loss_transaction_Transaction Date_to_Date Dim_Month
+    from:
+      dataset: loss_transaction
+      join_columns:
+        - Transaction Date
+    to:
+      dimension: Date Dim
+      level: Month

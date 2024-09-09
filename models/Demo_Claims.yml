@@ -56,3 +56,11 @@ relationships:
     to:
       dimension: Date Dim
       level: Month
+  - unique_name: loss_transaction_Transaction Date_to_Date Dim_Date
+    from:
+      dataset: loss_transaction
+      join_columns:
+        - Transaction Date
+    to:
+      dimension: Date Dim
+      level: Date

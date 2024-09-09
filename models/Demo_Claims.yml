@@ -33,3 +33,19 @@ relationships:
     to:
       dimension: Policy Dim
       level: LOB
+  - unique_name: policy_Policy Number_to_Policy Dim_Policy Dim Level
+    from:
+      dataset: policy
+      join_columns:
+        - Policy Number
+    to:
+      dimension: Policy Dim
+      level: Policy Dim Level
+  - unique_name: policy_Line of Business_to_Policy Dim_LOB
+    from:
+      dataset: policy
+      join_columns:
+        - Line of Business
+    to:
+      dimension: Policy Dim
+      level: LOB

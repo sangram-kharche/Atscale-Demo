@@ -1,0 +1,18 @@
+unique_name: LOB1
+object_type: dimension
+label: LOB1
+hierarchies:
+  - unique_name: LOB1 Hierarchy
+    label: LOB1 Hierarchy
+    levels:
+      - unique_name: LOB1 Level
+level_attributes:
+  - unique_name: LOB1 Level
+    label: LOB1 Level
+    contains_unique_names: false
+    dataset: policy
+    is_unique_key: false
+    key_columns:
+      - Line of Business
+    name_column: Line of Business
+type: standard

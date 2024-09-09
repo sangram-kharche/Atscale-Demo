@@ -82,3 +82,11 @@ relationships:
     to:
       dimension: Claims DIm
       level: Claims DIm Level
+  - unique_name: policy_Line of Business_to_LOB1_LOB1 Level
+    from:
+      dataset: policy
+      join_columns:
+        - Line of Business
+    to:
+      dimension: LOB1
+      level: LOB1 Level

@@ -7,13 +7,13 @@ columns:
   - name: Date
     data_type: date
   - name: Year
-    data_type: long
+    data_type: date
   - name: YearMonthNum
     data_type: long
   - name: Calendar_Quarter
-    data_type: string
+    data_type: date
   - name: MonthNum
-    data_type: long
+    data_type: date
   - name: MonthName
     data_type: string
   - name: MonthShortName

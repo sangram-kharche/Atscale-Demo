@@ -6,5 +6,4 @@ dimensions:
   - Cost_Type
 metrics:
   - unique_name: m_loss_transaction_Amount_sum
-  - unique_name: m_policy_Premium Amount_sum
 relationships: []

@@ -20,10 +20,10 @@ level_attributes:
   - unique_name: Transaction_Date_Hierarchy Level
     label: Transaction_Date_Hierarchy Level
     contains_unique_names: false
-    dataset: dim_date_20_24
+    dataset: loss_transaction
     is_unique_key: false
     key_columns:
-      - Year
-    name_column: Year
+      - Transaction Date
+    name_column: Transaction Date
     time_unit: year
 type: time

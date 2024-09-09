@@ -1,0 +1,18 @@
+unique_name: Claims DIm
+object_type: dimension
+label: Claims DIm
+hierarchies:
+  - unique_name: Claims DIm Hierarchy
+    label: Claims DIm Hierarchy
+    levels:
+      - unique_name: Claims DIm Level
+level_attributes:
+  - unique_name: Claims DIm Level
+    label: Claims DIm Level
+    contains_unique_names: false
+    dataset: claims
+    is_unique_key: false
+    key_columns:
+      - Claim Number
+    name_column: Claim Number
+type: standard

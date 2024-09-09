@@ -1,0 +1,44 @@
+unique_name: claims
+object_type: dataset
+label: claims
+columns:
+  - name: Claim Number
+    data_type: string
+  - name: Fault Rating Type
+    data_type: string
+  - name: Claim Reporting Party Type
+    data_type: string
+  - name: Claim Segment
+    data_type: string
+  - name: Claim Created Time Stamp
+    data_type: date
+  - name: Policy at Loss (FK)
+    data_type: string
+  - name: Loss Event (FK)
+    data_type: string
+  - name: Claim Status Code (FK)
+    data_type: string
+  - name: Claim Type
+    data_type: string
+  - name: Claim Sub-Type
+    data_type: string
+  - name: Date of Loss
+    data_type: date
+  - name: Claim Amount
+    data_type: long
+  - name: Settled Amount
+    data_type: long
+  - name: Claim Adjuster
+    data_type: string
+  - name: Claim Status
+    data_type: string
+  - name: Filing Date
+    data_type: date
+  - name: Loss Location
+    data_type: string
+  - name: Reserve Amount
+    data_type: long
+  - name: Payment Date
+    data_type: date
+connection_id: con_hive_metastore_default
+table: claims

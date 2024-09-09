@@ -65,3 +65,11 @@ relationships:
     to:
       dimension: Policy Dim
       level: LOB
+  - unique_name: policy_Premium Amount_to_Policy Dim_LOB
+    from:
+      dataset: policy
+      join_columns:
+        - Premium Amount
+    to:
+      dimension: Policy Dim
+      level: LOB

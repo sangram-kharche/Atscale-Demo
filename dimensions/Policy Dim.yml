@@ -6,6 +6,15 @@ hierarchies:
     label: Policy Dim Hierarchy
     levels:
       - unique_name: Policy Dim Level
+        secondary_attributes:
+          - unique_name: Policy Dim Secondary Attribute
+            label: Policy Dim Secondary Attribute
+            contains_unique_names: false
+            dataset: loss_transaction
+            is_unique_key: false
+            key_columns:
+              - Loss Transaction ID
+            name_column: Loss Transaction ID
   - unique_name: LOB
     label: LOB
     levels:

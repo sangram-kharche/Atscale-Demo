@@ -7,6 +7,7 @@ dimensions:
 metrics:
   - unique_name: m_loss_transaction_Amount_sum
   - unique_name: Total Premium
+  - unique_name: Loss Ratio
 relationships:
   - unique_name: loss_transaction_Policy Number (FK)_to_Policy Dim_Policy Dim Level
     from:

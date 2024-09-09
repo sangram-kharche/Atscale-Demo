@@ -9,7 +9,7 @@ hierarchies:
   - unique_name: LOB
     label: LOB
     levels:
-      - unique_name: Policy Dim Level (1)
+      - unique_name: LOB
 level_attributes:
   - unique_name: Policy Dim Level
     label: Policy Dim Level
@@ -19,8 +19,8 @@ level_attributes:
     key_columns:
       - Policy Number
     name_column: Policy Holder Name
-  - unique_name: Policy Dim Level (1)
-    label: Policy Dim Level (1)
+  - unique_name: LOB
+    label: LOB
     contains_unique_names: false
     dataset: policy
     is_unique_key: false

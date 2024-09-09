@@ -17,11 +17,11 @@ relationships:
     to:
       dimension: Policy Dim
       level: Policy Dim Level
-  - unique_name: loss_transaction_Policy Number (FK)_to_Policy Dim_Policy Dim Level (1)
+  - unique_name: loss_transaction_Policy Number (FK)_to_Policy Dim_LOB
     from:
       dataset: loss_transaction
       join_columns:
         - Policy Number (FK)
     to:
       dimension: Policy Dim
-      level: Policy Dim Level (1)
+      level: LOB

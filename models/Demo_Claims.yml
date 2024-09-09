@@ -6,4 +6,12 @@ dimensions:
   - Cost_Type
 metrics:
   - unique_name: m_loss_transaction_Amount_sum
-relationships: []
+relationships:
+  - unique_name: loss_transaction_Policy Number (FK)_to_Policy Dim_Policy Dim Level
+    from:
+      dataset: loss_transaction
+      join_columns:
+        - Policy Number (FK)
+    to:
+      dimension: Policy Dim
+      level: Policy Dim Level

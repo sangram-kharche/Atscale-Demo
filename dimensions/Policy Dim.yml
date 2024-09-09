@@ -1,0 +1,18 @@
+unique_name: Policy Dim
+object_type: dimension
+label: Policy Dim
+hierarchies:
+  - unique_name: Policy Dim Hierarchy
+    label: Policy Dim Hierarchy
+    levels:
+      - unique_name: Policy Dim Level
+level_attributes:
+  - unique_name: Policy Dim Level
+    label: Policy Dim Level
+    contains_unique_names: false
+    dataset: policy
+    is_unique_key: false
+    key_columns:
+      - Policy Number
+    name_column: Policy Holder Name
+type: standard

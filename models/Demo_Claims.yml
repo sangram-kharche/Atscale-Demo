@@ -6,6 +6,7 @@ dimensions:
   - Cost_Type
 metrics:
   - unique_name: m_loss_transaction_Amount_sum
+  - unique_name: Total Premium
 relationships:
   - unique_name: loss_transaction_Policy Number (FK)_to_Policy Dim_Policy Dim Level
     from:

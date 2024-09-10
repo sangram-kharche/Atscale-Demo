@@ -1,7 +1,7 @@
 unique_name: Claim Frequency
 object_type: metric
 label: Claim Frequency
+description: Calculates Claims Frequency
 calculation_method: count distinct
 column: Claim Number
 dataset: claims
-is_hidden: true

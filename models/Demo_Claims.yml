@@ -80,3 +80,11 @@ relationships:
     to:
       dimension: Date Dim
       level: Month
+  - unique_name: policy_Effective Date_to_Date Dim_Date
+    from:
+      dataset: policy
+      join_columns:
+        - Effective Date
+    to:
+      dimension: Date Dim
+      level: Date

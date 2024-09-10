@@ -51,35 +51,10 @@ relationships:
     to:
       dimension: LOB1
       level: LOB1 Hierarchy Level
-  - unique_name: dim_date_20_24_Date_to_Date Dim_Date
+  - unique_name: dim_date_20_24_empty_dimension
     from:
       dataset: dim_date_20_24
-      join_columns:
-        - Date
+      join_columns: []
     to:
-      dimension: Date Dim
-      level: Date
-  - unique_name: dim_date_20_24_Year_to_Date Dim_Year
-    from:
-      dataset: dim_date_20_24
-      join_columns:
-        - Year
-    to:
-      dimension: Date Dim
-      level: Year
-  - unique_name: dim_date_20_24_MonthNum_to_Date Dim_Month
-    from:
-      dataset: dim_date_20_24
-      join_columns:
-        - MonthNum
-    to:
-      dimension: Date Dim
-      level: Month
-  - unique_name: dim_date_20_24_Calendar_Quarter_to_Date Dim_Quarter
-    from:
-      dataset: dim_date_20_24
-      join_columns:
-        - Calendar_Quarter
-    to:
-      dimension: Date Dim
-      level: Quarter
+      dimension: ''
+      level: ''

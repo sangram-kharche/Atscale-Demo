@@ -5,3 +5,4 @@ description: Calculates Claims Frequency
 calculation_method: count distinct
 column: Claim Number
 dataset: claims
+Folder: Sales

@@ -4,3 +4,4 @@ label: Total Premium
 calculation_method: sum
 column: Final Premium
 dataset: policy
+format: general number

@@ -4,12 +4,13 @@ label: Demo_Claims
 dimensions: []
 metrics:
   - unique_name: Total Transaction Amount
-  - unique_name: Total Premium
   - unique_name: Loss Ratio
   - unique_name: Total Claims Amount
   - unique_name: Claim Frequency
     folder: Indemnity
   - unique_name: Claims Severity
+  - unique_name: Total Premium
+    folder: Totals
 relationships:
   - unique_name: loss_transaction_Policy Number (FK)_to_Policy Dim_Policy Dim Level
     from:

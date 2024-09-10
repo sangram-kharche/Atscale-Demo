@@ -1,0 +1,6 @@
+unique_name: Claim Frequency
+object_type: metric
+label: Claim Frequency
+calculation_method: count distinct
+column: Claim Number
+dataset: claims

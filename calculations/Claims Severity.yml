@@ -1,0 +1,6 @@
+unique_name: Claims Severity
+object_type: metric_calc
+label: Claims Severity
+expression: '[Measures].[Total Transaction Amount]/[Measures].[Claim Frequency]'
+is_hidden: false
+mdx_aggregate_function: AVG

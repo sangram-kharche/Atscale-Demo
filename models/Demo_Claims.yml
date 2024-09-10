@@ -7,6 +7,9 @@ metrics:
   - unique_name: Total Premium
   - unique_name: Loss Ratio
   - unique_name: Total Claims Amount
+  - unique_name: Claim Frequency
+    folder: Indemnity
+  - unique_name: Claims Severity
 relationships:
   - unique_name: loss_transaction_Policy Number (FK)_to_Policy Dim_Policy Dim Level
     from:
@@ -64,3 +67,11 @@ relationships:
     to:
       dimension: Date Dim
       level: Date
+  - unique_name: claims_Claim Number_to_Claims DIm_Claims DIm Level
+    from:
+      dataset: claims
+      join_columns:
+        - Claim Number
+    to:
+      dimension: Claims DIm
+      level: Claims DIm Level

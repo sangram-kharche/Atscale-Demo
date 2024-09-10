@@ -75,3 +75,11 @@ relationships:
     to:
       dimension: Claims DIm
       level: Claims DIm Level
+  - unique_name: claims_Payment Date_to_Date Dim_Date
+    from:
+      dataset: claims
+      join_columns:
+        - Payment Date
+    to:
+      dimension: Date Dim
+      level: Date

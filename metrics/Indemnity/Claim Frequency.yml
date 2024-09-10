@@ -4,3 +4,4 @@ label: Claim Frequency
 calculation_method: count distinct
 column: Claim Number
 dataset: claims
+is_hidden: true

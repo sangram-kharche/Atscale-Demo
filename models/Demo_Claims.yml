@@ -56,30 +56,6 @@ relationships:
     to:
       dimension: Date Dim
       level: Date
-  - unique_name: dim_date_20_24_Year_to_Date Dim_Year
-    from:
-      dataset: dim_date_20_24
-      join_columns:
-        - Year
-    to:
-      dimension: Date Dim
-      level: Year
-  - unique_name: dim_date_20_24_Calendar_Quarter_to_Date Dim_Quarter
-    from:
-      dataset: dim_date_20_24
-      join_columns:
-        - Calendar_Quarter
-    to:
-      dimension: Date Dim
-      level: Quarter
-  - unique_name: dim_date_20_24_WeekNum_to_Date Dim_Month
-    from:
-      dataset: dim_date_20_24
-      join_columns:
-        - WeekNum
-    to:
-      dimension: Date Dim
-      level: Month
   - unique_name: policy_Effective Date_to_Date Dim_Date
     from:
       dataset: policy

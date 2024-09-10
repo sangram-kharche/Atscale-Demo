@@ -6,6 +6,7 @@ hierarchies:
     label: LOB1 Hierarchy
     levels:
       - unique_name: LOB1 Level
+      - unique_name: LOB1 Hierarchy Level
 level_attributes:
   - unique_name: LOB1 Level
     label: LOB1 Level
@@ -15,4 +16,12 @@ level_attributes:
     key_columns:
       - Line of Business
     name_column: Line of Business
+  - unique_name: LOB1 Hierarchy Level
+    label: LOB1 Hierarchy Level
+    contains_unique_names: false
+    dataset: policy
+    is_unique_key: false
+    key_columns:
+      - Policy Number
+    name_column: Policy Number
 type: standard

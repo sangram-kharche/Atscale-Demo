@@ -67,3 +67,11 @@ relationships:
     to:
       dimension: Date Dim
       level: Year
+  - unique_name: policy_Policy Number_to_LOB1_LOB1 Hierarchy Level
+    from:
+      dataset: policy
+      join_columns:
+        - Policy Number
+    to:
+      dimension: LOB1
+      level: LOB1 Hierarchy Level

@@ -43,22 +43,6 @@ relationships:
     to:
       dimension: Date Dim
       level: Date
-  - unique_name: policy_Effective Date_to_Date Dim_Date
-    from:
-      dataset: policy
-      join_columns:
-        - Effective Date
-    to:
-      dimension: Date Dim
-      level: Date
-  - unique_name: loss_transaction_Year_to_Date Dim_Year
-    from:
-      dataset: loss_transaction
-      join_columns:
-        - Year
-    to:
-      dimension: Date Dim
-      level: Year
   - unique_name: policy_Policy Number_to_LOB1_LOB1 Hierarchy Level
     from:
       dataset: policy

@@ -59,3 +59,11 @@ relationships:
     to:
       dimension: Date Dim
       level: Date
+  - unique_name: loss_transaction_Year_to_Date Dim_Year
+    from:
+      dataset: loss_transaction
+      join_columns:
+        - Year
+    to:
+      dimension: Date Dim
+      level: Year

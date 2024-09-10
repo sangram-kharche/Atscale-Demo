@@ -2,5 +2,5 @@ unique_name: Total Premium
 object_type: metric
 label: Total Premium
 calculation_method: sum
-column: Premium Amount
+column: Final Premium
 dataset: policy

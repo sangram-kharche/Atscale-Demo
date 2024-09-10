@@ -34,5 +34,8 @@ columns:
     data_type: string
   - name: Discount Applied
     data_type: string
+  - name: Final Premium
+    data_type: double
+    sql: '''Premium Amount''*3.5'
 connection_id: con_hive_metastore_default
 table: policy

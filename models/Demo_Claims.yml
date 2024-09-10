@@ -4,11 +4,15 @@ label: Demo_Claims
 dimensions: []
 metrics:
   - unique_name: Total Transaction Amount
+    folder: Totals
   - unique_name: Loss Ratio
+    folder: Ratios
   - unique_name: Total Claims Amount
+    folder: Totals
   - unique_name: Claim Frequency
     folder: Indemnity
   - unique_name: Claims Severity
+    folder: Indemnity
   - unique_name: Total Premium
     folder: Totals
 relationships:

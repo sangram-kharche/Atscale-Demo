@@ -51,10 +51,11 @@ relationships:
     to:
       dimension: LOB1
       level: LOB1 Hierarchy Level
-  - unique_name: dim_date_20_24_empty_dimension
+  - unique_name: dim_date_20_24_Modified Date_to_Date Dim_Date
     from:
       dataset: dim_date_20_24
-      join_columns: []
+      join_columns:
+        - Modified Date
     to:
-      dimension: ''
-      level: ''
+      dimension: Date Dim
+      level: Date

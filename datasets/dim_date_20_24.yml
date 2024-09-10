@@ -36,5 +36,10 @@ columns:
     data_type: long
   - name: DayNumOfQuarter
     data_type: long
+  - name: Modified Date
+    data_type: string
+    sql: >-
+      CONCAT(LEFT(DateNum, 4), '-', SUBSTRING(DateNum, 5, 2), '-',
+      RIGHT(DateNum, 2))
 connection_id: con_hive_metastore_default
 table: dim_date_20_24

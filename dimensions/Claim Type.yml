@@ -1,0 +1,27 @@
+unique_name: Claim Type
+object_type: dimension
+label: Claim Type
+hierarchies:
+  - unique_name: Claim Type Hierarchy
+    label: Claim Type Hierarchy
+    levels:
+      - unique_name: Claim Type
+      - unique_name: Claim Sub-Type
+level_attributes:
+  - unique_name: Claim Type
+    label: Claim Type
+    contains_unique_names: false
+    dataset: claims
+    is_unique_key: false
+    key_columns:
+      - Claim Type
+    name_column: Claim Type
+  - unique_name: Claim Sub-Type
+    label: Claim Sub-Type
+    contains_unique_names: false
+    dataset: claims
+    is_unique_key: false
+    key_columns:
+      - Claim Sub-Type
+    name_column: Claim Sub-Type
+type: standard

@@ -1,23 +1,23 @@
-unique_name: LOB1
+unique_name: LOB
 object_type: dimension
-label: LOB1
+label: LOB
 hierarchies:
-  - unique_name: LOB1 Hierarchy
-    label: LOB1 Hierarchy
+  - unique_name: LOB Hierarchy
+    label: LOB Hierarchy
     levels:
-      - unique_name: LOB1 Level
-      - unique_name: LOB1 Hierarchy Level
+      - unique_name: LOB
+      - unique_name: Policy Number
 level_attributes:
-  - unique_name: LOB1 Level
-    label: LOB1 Level
+  - unique_name: LOB
+    label: LOB
     contains_unique_names: false
     dataset: policy
     is_unique_key: false
     key_columns:
       - Line of Business
     name_column: Line of Business
-  - unique_name: LOB1 Hierarchy Level
-    label: LOB1 Hierarchy Level
+  - unique_name: Policy Number
+    label: Policy Number
     contains_unique_names: false
     dataset: policy
     is_unique_key: false

@@ -48,14 +48,6 @@ relationships:
     to:
       dimension: Date Dim
       level: Date
-  - unique_name: policy_Policy Number_to_LOB1_LOB1 Hierarchy Level
-    from:
-      dataset: policy
-      join_columns:
-        - Policy Number
-    to:
-      dimension: LOB1
-      level: LOB1 Hierarchy Level
   - unique_name: dim_date_20_24_Modified Date_to_Date Dim_Date
     from:
       dataset: dim_date_20_24
@@ -96,3 +88,11 @@ relationships:
     to:
       dimension: Claim Type
       level: Claim Sub-Type
+  - unique_name: policy_Policy Number_to_LOB_Policy Number
+    from:
+      dataset: policy
+      join_columns:
+        - Policy Number
+    to:
+      dimension: LOB
+      level: Policy Number

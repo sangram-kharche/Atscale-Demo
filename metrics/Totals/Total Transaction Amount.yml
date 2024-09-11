@@ -1,6 +1,6 @@
 unique_name: Total Transaction Amount
 object_type: metric
-label: Total_Transaction_Amount
+label: Total Loss
 calculation_method: sum
 column: Amount
 dataset: loss_transaction

@@ -7,6 +7,7 @@ hierarchies:
     levels:
       - unique_name: Claim Type
       - unique_name: Claim Sub-Type
+      - unique_name: Claim Number
 level_attributes:
   - unique_name: Claim Type
     label: Claim Type
@@ -24,4 +25,12 @@ level_attributes:
     key_columns:
       - Claim Sub-Type
     name_column: Claim Sub-Type
+  - unique_name: Claim Number
+    label: Claim Number
+    contains_unique_names: false
+    dataset: claims
+    is_unique_key: false
+    key_columns:
+      - Claim Number
+    name_column: Claim Number
 type: standard

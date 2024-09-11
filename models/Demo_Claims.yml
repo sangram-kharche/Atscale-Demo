@@ -80,14 +80,6 @@ relationships:
     to:
       dimension: Date Dim
       level: Date
-  - unique_name: claims_Claim Sub-Type_to_Claim Type_Claim Sub-Type
-    from:
-      dataset: claims
-      join_columns:
-        - Claim Sub-Type
-    to:
-      dimension: Claim Type
-      level: Claim Sub-Type
   - unique_name: policy_Policy Number_to_LOB_Policy Number
     from:
       dataset: policy
@@ -96,3 +88,11 @@ relationships:
     to:
       dimension: LOB
       level: Policy Number
+  - unique_name: claims_Claim Number_to_Claim Type_Claim Number
+    from:
+      dataset: claims
+      join_columns:
+        - Claim Number
+    to:
+      dimension: Claim Type
+      level: Claim Number

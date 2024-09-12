@@ -7,7 +7,7 @@ metrics:
     folder: Totals
   - unique_name: Loss Ratio
     folder: Ratios
-  - unique_name: Total Claims Amount
+  - unique_name: Total Claim Amount
     folder: Totals
   - unique_name: Claim Frequency
     folder: Indemnity

@@ -1,6 +1,6 @@
-unique_name: Total Claims Amount
+unique_name: Total Claim Amount
 object_type: metric
-label: Total Claims Amount
+label: Total Claim Amount
 calculation_method: sum
 column: Settled Amount
 dataset: claims
